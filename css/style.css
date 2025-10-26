@@ -1,16 +1,60 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.25rem;
+    line-height: 1.6;
+}
+
+header{
+    text-align: center;
+}
+
+section{
+    margin-block:100px;
+}
+
 h1{
     text-align:center;
-    color:#4676A9;
-    font-size: 50px;
+    color:#999999;
+    font-size: 7.5rem;
+    line-height:1.1;
 }
 
 h2{
     color:#A14343;
-    font-size: 20px;
+}
+
+.teal-bg{
+    color:#ffffff;
+    padding: 20px;
+    border: #0b4a5a solid 10px;
+    background-color: #087A98;
+}
+
+.teal-text
+{
+    color:#087a98;
+}
+
+.climber-bg{
+    color:#ffffff;
+    background-image:url(../images/simple-steps.jpg);
+    padding:24px;
+    border: #0b4a5a solid 10px;
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size: cover;
+
+}
+
+a{
+    color:#0b761f;
+}
+
+a:hover,
+a:focus-visible{
+    color:#9cefab;
 }
 
 footer{
-    background-color: #27039d;
     text-align:center;
-    color:#ffffff;
 }
